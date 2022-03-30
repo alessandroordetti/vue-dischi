@@ -29,9 +29,7 @@ export default {
 @import '@/style/main-style.scss';
 
 #app {
-  height: 100vh;
   background-color: #1e2d3b;
-  color: white;
 }
 
 </style>

@@ -1,23 +1,37 @@
 <template>
   <div id="app">
-    <h1 class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quo id obcaecati odio veniam sit quis ducimus aliquam similique natus, fugiat architecto odit dolorem a maiores ea sed? Quis, quasi?</h1>
+    <IndexHeader />
+
+
     <AlbumsList />
+
   </div>
 </template>
 
 <script>
 import AlbumsList from './components/AlbumsList.vue'
+import IndexHeader from './components/IndexHeader.vue';
 
 export default {
   name: 'App',
   components: {
     AlbumsList,
-  }
+    IndexHeader
+  },
+
+
 }
+
+
 </script>
 
 <style lang="scss">
 @import '@/style/main-style.scss';
 
+#app {
+  height: 100vh;
+  background-color: #1e2d3b;
+  color: white;
+}
 
 </style>

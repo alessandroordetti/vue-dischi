@@ -23,5 +23,6 @@ export default {
 <style lang="scss" scoped>
     .card {
         width: 250px;
+        height: 425px;
     }
 </style>

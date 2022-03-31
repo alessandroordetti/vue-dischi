@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container p-4">
         <div class="row">
             <div class="" v-for="(element, index) in albumsListArray" :key=index>
                 <AlbumCard 

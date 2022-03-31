@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-2 mx-2 my-2" v-for="(element, index) in albumsListArray" :key=index>
+            <div class="" v-for="(element, index) in albumsListArray" :key=index>
                 <AlbumCard 
                 :nome="element.author"
                 :genere="element.genre"
@@ -54,5 +54,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .row > div {
+        width: calc(100% / 5);
+        margin-bottom: 1rem;
+    }
 </style>

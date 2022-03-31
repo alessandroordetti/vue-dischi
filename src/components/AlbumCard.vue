@@ -21,5 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .card {
+        width: 250px;
+    }
 </style>

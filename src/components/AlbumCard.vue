@@ -15,7 +15,6 @@
 <script>
 export default {
     name: 'AlbumCard',
-
     props: ['nome', 'genere', 'poster' , 'titolo', 'anno']
 }
 </script>
